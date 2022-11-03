@@ -9,8 +9,20 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body class="bg-dark vh-100" >
     
+    <div class="d-flex justify-content-center align-items-center h-100">
+        <div class=" text-center d-block" id="container">
+            <h1 class=" text-white mb-5">inserisci la tua e-mail</h1>
+            <input type="text" class="form-control" placeholder="la-tua-e-mail@gmail.com" id="mail">
+            <button class="btn btn-outline-light mt-4">Conferma</button>
+        </div>
+
+        <div class="text-center d-none" id="result">
+            <h1 id="answer" class=" text-white mb-5"></h1>
+            <button class="btn btn-outline-light" id="end-btn"></button>
+        </div>
+    </div>
 
 <script src="js/mail.js"></script>
 </body>
