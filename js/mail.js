@@ -44,5 +44,5 @@ startBtnEl.addEventListener('click', function () {
 endBtnEl.addEventListener('click', function () {
     containerEl.classList.replace('d-none', 'd-block');
     resultEl.classList.replace('d-block', 'd-none');
-    mailEl.value = 0;
+    mailEl.value = '';
 });
